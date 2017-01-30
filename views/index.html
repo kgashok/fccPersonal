@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="http://github-profile.com/dist/gh-profile-card.min.css"/>
   <script type="text/javascript" src="http://github-profile.com/dist/gh-profile-card.min.js"></script>
-  <link rel="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
 </head>
 
 <body>
@@ -25,53 +25,61 @@
 
   <main >
     <nav class="top">
-      <a href="#about-me">About Me</a> |
-      <a href="#project-portfolio">Portfolio</a> |
-      <a href="#contact">Contact</a>
+      <a href="#about-me" target="_parent">About Me</a> |
+      <a href="#project-portfolio" target="_parent">Portfolio</a> |
+      <a href="#contact" target="_parent">Contact</a>
     </nav>
+    <div class="container">
+      <div class="row">
 
-    <h1 id="about-me">About Me</h1>
-    <h2 id="from-twitter">From Twitter</h2>
+          <h1 id="about-me">About Me</h1>
+          <hr/>
+          <h2 id="from-twitter">From Twitter</h2>
+        <div class="col-xs-4 col-md-12">
+          <blockquote class="blockquote">
+            <p class="mb-0">Impact Entrepreneur, struggle-to-code #TDD evangelist, paradox collector,
+              green tea and black coffee enthusiast. And yes, squash!</p>
+          </blockquote>
 
-    <blockquote>
-      <p>Impact Entrepreneur, struggle-to-code #TDD evangelist, paradox collector,
-        green tea and black coffee enthusiast. And yes, squash!</p>
-    </blockquote>
+          <h2 id="from-aboutme">From about.me</h2>
 
-    <h2 id="from-aboutme">From about.me</h2>
+          <blockquote>
+            <p>Entrepreneur, intent on making a meaningful impact within ~30,000
+              days (or whatever is left of it) of my existence on this planet.
+              <br> Why coding is important - <a href="http://j.mp/HAT-KG">http://j.mp/HAT-KG</a>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
 
-    <blockquote>
-      <p>Entrepreneur, intent on making a meaningful impact within ~30,000
-        days (or whatever is left of it) of my existence on this planet.
-        <br> Why coding is important - <a href="http://j.mp/HAT-KG">http://j.mp/HAT-KG</a>
-      </p>
-    </blockquote>
 
-    <h1 id="project-portfolio">Project Portfolio</h1>
-
-    <div class="container-fluid">
+    <div class="container">
+      <h1 id="project-portfolio">Project Portfolio</h1>
+      <hr/>
       <div class="row">
         <div class="col-xs-4 col-md-3">
 
           <a href="http://s.codepen.io/kgashok/debug/dMeVOV/GnAnbnDKzqbA" class="thumbnail">
             <img src="http://i.imgur.com/dS9Saa2.png" alt="Imgur" title="">
           </a>
+        </div><div class="col-xs-4 col-md-3">
           <a href="http://j.mp/bracketV" class="thumbnail">
             <img src="http://i.imgur.com/o1JRq7s.png" alt="Imgur" title="">
           </a>
-
+</div><div class="col-xs-4 col-md-3">
           <a href="http://j.mp/fccElm" class="thumbnail">
             <img src="http://i.imgur.com/sUlSgP0.png" alt="Imgur" title="">
           </a>
-
+</div><div class="col-xs-4 col-md-3">
           <a href="https://shore-substance.gomix.me" class="thumbnail">
             <img src="http://i.imgur.com/l5zUE8v.png" alt="Imgur" title="">
           </a>
-          
+          </div><div class="col-xs-4 col-md-3">
           <a href="http://j.mp/elmJSMix" class="thumbnail">
             <img src="http://i.imgur.com/VBQfTtU.png" alt="Imgur" title="">
           </a>
-
+</div><div class="col-xs-4 col-md-3">
           <a href="https://j.mp/trumpKG" class="thumbnail">
             <img src="http://i.imgur.com/to9yWBL.png" alt="Imgur" title="">
           </a>
@@ -81,12 +89,12 @@
       </div>
     </div>
 
+    
+    <div class="container">
     <h1 id="contact">Contact</h1>
-
-    <div class="container-fluid">
+      <hr/>
       <div class = "row">
         <div class = "col-xs-4 col-md-3">
-
           <h2 id="stackoverflow">Stackoverflow</h2> 
           <p>
             <a href="http://stackoverflow.com/users/307454/lifebalance">
@@ -97,11 +105,13 @@
               <br>
             </a>
           </p>
-
+        </div>
+        <div class = "col-xs-4 col-md-3">
           <h2 id="twitter">Twitter</h2>
           <a class="twitter-timeline" data-width="220" data-height="200" href="https://twitter.com/lifebalance">Tweets by Lifebalance</a>
           <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+        </div>
+        <div class = "col-xs-4 col-md-3">
           <h2 id="github">Github</h2>
           <div id="github-card" data-sort-by="stars" data-header-text="Most starred repositories"
           data-max-repos="5" data-username="kgashok">
