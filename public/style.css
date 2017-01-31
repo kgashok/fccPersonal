@@ -4,9 +4,7 @@
 /* You might want to try something fancier: */
 /* less: http://lesscss.org/ */
 
-* {
-  box-sizing: border-box;
-}
+
 
 .top {
   background-color: #FFAA00; 
@@ -19,7 +17,6 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 25px;
 }
 
 h1 {
@@ -72,9 +69,6 @@ button:active {
   box-shadow: none;
 }
 
-li {
-  margin-bottom: 5px;
-}
 
 footer {
   margin-top: 50px;
